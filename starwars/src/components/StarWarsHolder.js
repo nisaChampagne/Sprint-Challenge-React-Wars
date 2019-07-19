@@ -34,7 +34,9 @@ export default function StarWarsContainer() {
           gender={data.gender}
           height={data.height}
           birthyear={data.birth_year}
+          eyecolor={data.eye_color}
           haircolor={data.hair_color}
+          mass={data.mass}
         />
       ) : (
         <div> Oops one second </div>

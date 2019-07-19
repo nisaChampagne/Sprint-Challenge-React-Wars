@@ -26,7 +26,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-ReactJS is a Javascript language that creates interactive UIs. React updates and renders data changes. All in all it is faster and easier.
+ReactJS is a Javascript language that creates interactive UIs. React updates and renders data changes in the virtual DOM versus the 'real' DOM. All in all it is faster and easier way to keep up with consistently changing data (state). 
+
+Problems ReactJS tries to solves: 
 
 - [ ] What does it mean to _think_ in react?
 
