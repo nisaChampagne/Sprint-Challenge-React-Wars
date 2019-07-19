@@ -26,13 +26,25 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ReactJS is a Javascript language that creates interactive UIs. React updates and renders data changes in the virtual DOM versus the 'real' DOM. All in all it is faster and easier way to keep up with consistently changing data (state). 
+
+Problems ReactJS tries to solves: 
+
 - [ ] What does it mean to _think_ in react?
+
+To think in react means to think in components.It entails breaking down an application into smaller pieces(components). It helps you not have to think about transitions from one state to the next as data travels directly from parent to child.
 
 - [ ] Describe state.
 
+State is data a component could change to trigger a UI update.
+
 - [ ] Describe props.
 
+Props are properties  passed to the child components that hold an abundance of data types.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are anything that affects something outside of the scope of the function being executed. You sync effects in a React component to state or prop changes  via useEffect(). 
 
 ## Project Set Up
 
@@ -60,12 +72,12 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
-- [ ] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
-- [ ] Set the data you fetch to state.
-- [ ] Map over the list and render a component for each character on the page.
-- [ ] You must have at least one element for each star wars character in the data set.
-- [ ] The elements must be styled with either SemanticUI or styled-components - don't rely on browser default styles.
+- [x] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
+- [x] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
+- [x] Set the data you fetch to state.
+- [x] Map over the list and render a component for each character on the page.
+- [x] You must have at least one element for each star wars character in the data set.
+- [x] The elements must be styled with either SemanticUI or styled-components - don't rely on browser default styles.
 
 #### Required best practices:
 
